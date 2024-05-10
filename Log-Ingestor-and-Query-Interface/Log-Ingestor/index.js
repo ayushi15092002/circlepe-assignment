@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 });
 
 app.use(express.json());
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended: true }));
 app.use('/api/logs', logRouter);
 
 export default app;

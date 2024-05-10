@@ -1,0 +1,16 @@
+{
+    "name": "todo-mern",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "install-server": "cd Log-Ingestor-and-Query-Interface && cd Log-Ingestor && npm install",
+      "start-server": "cd Log-Ingestor-and-Query-Interface && cd Log-Ingestor && npm start",
+      "install-client": "cd Log-Ingestor-and-Query-Interface && cd query-interface && npm install",
+      "build-client": "cd Log-Ingestor-and-Query-Interface && cd query-interface && npm run build",
+      "start-client": "cd Log-Ingestor-and-Query-Interface && cd query-interface && npm start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }

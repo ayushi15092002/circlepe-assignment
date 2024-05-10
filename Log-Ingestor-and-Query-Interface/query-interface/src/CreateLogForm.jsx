@@ -30,7 +30,7 @@ const CreateLogForm = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://circlepe-assignment.vercel.app/api/logs/create', {
+      const response = await fetch('https://circlepe-assignment.onrender.com/api/logs/create', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

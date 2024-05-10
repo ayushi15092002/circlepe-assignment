@@ -35,7 +35,7 @@ const FilterLogForm = () => {
       } else {
         queryParams = new URLSearchParams(filterFormData).toString();
       }
-      const url = `https://circlepe-assignment.vercel.app/api/logs/getFilteredLogs?filterWithTimestamp=${filterWithTimestamp}&${queryParams}`;
+      const url = `https://circlepe-assignment.onrender.com/api/logs/getFilteredLogs?filterWithTimestamp=${filterWithTimestamp}&${queryParams}`;
 
       const response = await fetch(url, {
         method: 'GET',

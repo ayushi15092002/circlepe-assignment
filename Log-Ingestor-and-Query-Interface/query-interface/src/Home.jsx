@@ -8,7 +8,7 @@ const Home = () => {
 
   const fetchLogs = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/logs/fetchAllLogs', {
+      const response = await fetch('https://circlepe-assignment.vercel.app//api/logs/fetchAllLogs', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json'
